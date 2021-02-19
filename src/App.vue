@@ -1,7 +1,7 @@
 <template>
   <div class="bg-gray-900 container mx-auto my-16 max-w-md">
     <a
-      href="https://github.com/ahmaddynugroho/image-compressor-app"
+      href="https://github.com/ahmaddynugroho/image-compressor"
       class="text-gray-500 text-4xl font-thin uppercase text-center my-8 block"
       >Image Compressor</a
     >
