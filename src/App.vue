@@ -15,10 +15,16 @@
     </p>
     <input
       v-if="!compressedLink"
-      class="border rounded border-gray-700 my-2 px-4 py-2 text-gray-400 bg-gray-800 hover:bg-gray-700 hover:text-gray-300"
+      class="border rounded border-gray-700 my-2 px-4 py-2 text-gray-400 bg-gray-800 hover:bg-gray-700 hover:text-gray-300 w-full"
       id="quality"
+      value="0.6"
     />
-    <a v-if="compressedLink" :href="compressedLink">download</a>
+    <a
+      v-if="compressedLink"
+      class="font-thin text-gray-400 mt-2"
+      :href="compressedLink"
+      >download</a
+    >
     <input @change="compress($event)" type="file" id="file" accept="image/*" />
   </div>
 </template>
