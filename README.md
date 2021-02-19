@@ -1,24 +1,7 @@
 # image-compressor
 
-## Project setup
 ```
-npm install
-```
+npm i; npm run dev
 
-### Compiles and hot-reloads for development
+then, use image in src/assets for example compression
 ```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
